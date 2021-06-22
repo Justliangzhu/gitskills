@@ -1,0 +1,7 @@
+
+LIBRARY      "RoadDesign"
+
+EXPORTS
+	acrxEntryPoint		PRIVATE
+	acrxGetApiVersion	PRIVATE
+

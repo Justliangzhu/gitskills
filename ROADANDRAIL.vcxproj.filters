@@ -1,0 +1,1538 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2406609c-9b6e-49a5-bf41-76e4d384ac09}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\界面">
+      <UniqueIdentifier>{371e354d-7ae6-4e1b-8b27-ebd86edc10f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\基本计算绘图类">
+      <UniqueIdentifier>{5d314be4-58ae-455b-b611-e380a21cad7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OTHER">
+      <UniqueIdentifier>{98b0e248-ae1e-4ebc-a1c7-098ee914993e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\命令">
+      <UniqueIdentifier>{f331d800-41d7-4a53-b612-273b052bf45e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\基本计算模型">
+      <UniqueIdentifier>{c2252c16-54dd-4093-b166-7b5e9d6a5ca0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\定线工具">
+      <UniqueIdentifier>{43e3ebcb-ae61-46e5-85f6-5333dfcc1d0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\项目管理">
+      <UniqueIdentifier>{c6950ddb-12a2-4dc6-b662-327264155c39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3D">
+      <UniqueIdentifier>{a60c2649-e523-458d-8f2e-5ea82db65dbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\软件狗">
+      <UniqueIdentifier>{325e41b1-4a5d-42d8-9430-a48bfaef3117}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\平面设计">
+      <UniqueIdentifier>{b9aaa273-4366-4e9e-a0dd-fb798c0d2f99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\纵断面">
+      <UniqueIdentifier>{522e5793-3f3e-4d22-941c-eaa9b36fea28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\超高">
+      <UniqueIdentifier>{ef275333-d6e0-4a20-831c-85909782f7b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\平纵面绘图">
+      <UniqueIdentifier>{307e7222-1f8b-4bd0-ad1a-7c75d8e15571}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\横断面">
+      <UniqueIdentifier>{71919d87-ec84-4cca-83e4-9c29b2a4a9dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\占地宽设计">
+      <UniqueIdentifier>{0744797e-53d5-4274-b425-0a304e7fd5f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\表格输出">
+      <UniqueIdentifier>{6a09be87-0f5c-4a95-a710-b36567783be9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\数据库">
+      <UniqueIdentifier>{43a32667-2afd-49c2-923c-98896f29016a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\积木法">
+      <UniqueIdentifier>{1a6b5bea-6870-4895-baba-403c68048f62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\工具条">
+      <UniqueIdentifier>{d9f04b88-702f-41ae-b69a-8807f32bce69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\三维">
+      <UniqueIdentifier>{ba89aff1-50f3-44c3-87d1-a4e6593afcab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\老网络狗">
+      <UniqueIdentifier>{0516c711-ecdb-4fc9-a56f-2c8e905859ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\带状分幅出图">
+      <UniqueIdentifier>{6cdc3f92-c0bd-40fa-aba2-929cc02e6ce2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\铁路">
+      <UniqueIdentifier>{0d74e841-7f25-4c96-b0bd-47398f0c7f9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{0607e7d1-e716-44db-acf7-43d0bba96661}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{b8d0e7de-89d8-42b8-9a3b-8569fb03f072}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Source Files\3D\GridControl">
+      <UniqueIdentifier>{d44e6f89-cfa1-468f-b719-1570841c4aea}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ARXBaseDraw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BAS_DRAW_FUN_JYX.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BAS_DRAW_FUN_RAIL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BDCALDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BXLMK.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CWorkDir.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CXLMBG.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CalYDArea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DELDBBZ.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawBDCIR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawBianXianDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawRoadsDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EDITLMK.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EXMANAGER.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EditAllRoads.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EditJDdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EditZDKDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FLOATMENU.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GTZX2_JYX.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GTZX_JYX.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LCZZBDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyLayout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NoseDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PMGUIDE.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PmPointer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ResizableDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SELBXKD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TRIMPMT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UltraCArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vect3d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XLDataBase_JYX.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ZBTOLC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ZDMTBX.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BTGridCtrl.cpp">
+      <Filter>Source Files\3D\GridControl</Filter>
+    </ClCompile>
+    <ClCompile Include="NewGridCtrl\CheckComboBox.cpp">
+      <Filter>Source Files\3D\GridControl</Filter>
+    </ClCompile>
+    <ClCompile Include="NewGridCtrl\GridCell.cpp">
+      <Filter>Source Files\3D\GridControl</Filter>
+    </ClCompile>
+    <ClCompile Include="NewGridCtrl\GridCellBase.cpp">
+      <Filter>Source Files\3D\GridControl</Filter>
+    </ClCompile>
+    <ClCompile Include="NewGridCtrl\GridCellCheckCombo.cpp">
+      <Filter>Source Files\3D\GridControl</Filter>
+    </ClCompile>
+    <ClCompile Include="NewGridCtrl\GridCellCombo.cpp">
+      <Filter>Source Files\3D\GridControl</Filter>
+    </ClCompile>
+    <ClCompile Include="NewGridCtrl\GridCellDateTime.cpp">
+      <Filter>Source Files\3D\GridControl</Filter>
+    </ClCompile>
+    <ClCompile Include="NewGridCtrl\GridCellNumeric.cpp">
+      <Filter>Source Files\3D\GridControl</Filter>
+    </ClCompile>
+    <ClCompile Include="NewGridCtrl\GridCtrl.cpp">
+      <Filter>Source Files\3D\GridControl</Filter>
+    </ClCompile>
+    <ClCompile Include="NewGridCtrl\GridDropTarget.cpp">
+      <Filter>Source Files\3D\GridControl</Filter>
+    </ClCompile>
+    <ClCompile Include="NewGridCtrl\InPlaceEdit.cpp">
+      <Filter>Source Files\3D\GridControl</Filter>
+    </ClCompile>
+    <ClCompile Include="LMKGridCtrl.cpp">
+      <Filter>Source Files\3D\GridControl</Filter>
+    </ClCompile>
+    <ClCompile Include="NewGridCtrl\TitleTip.cpp">
+      <Filter>Source Files\3D\GridControl</Filter>
+    </ClCompile>
+    <ClCompile Include="AcDialogBar.cpp">
+      <Filter>Source Files\界面</Filter>
+    </ClCompile>
+    <ClCompile Include="AcToolBar.cpp">
+      <Filter>Source Files\界面</Filter>
+    </ClCompile>
+    <ClCompile Include="menubar\BCMenu.cpp">
+      <Filter>Source Files\界面</Filter>
+    </ClCompile>
+    <ClCompile Include="DockLocationTool.cpp">
+      <Filter>Source Files\界面</Filter>
+    </ClCompile>
+    <ClCompile Include="menubar\KeyHelper.cpp">
+      <Filter>Source Files\界面</Filter>
+    </ClCompile>
+    <ClCompile Include="menubar\MenuBar.cpp">
+      <Filter>Source Files\界面</Filter>
+    </ClCompile>
+    <ClCompile Include="menubar\MenuBarXP.cpp">
+      <Filter>Source Files\界面</Filter>
+    </ClCompile>
+    <ClCompile Include="menubar\MenuXP.cpp">
+      <Filter>Source Files\界面</Filter>
+    </ClCompile>
+    <ClCompile Include="menubar\Subclass.cpp">
+      <Filter>Source Files\界面</Filter>
+    </ClCompile>
+    <ClCompile Include="menubar\ToolBarXP.cpp">
+      <Filter>Source Files\界面</Filter>
+    </ClCompile>
+    <ClCompile Include="cdxCDynamicControlsManager.cpp">
+      <Filter>Source Files\界面</Filter>
+    </ClCompile>
+    <ClCompile Include="cdxCSizeIconCtrl.cpp">
+      <Filter>Source Files\界面</Filter>
+    </ClCompile>
+    <ClCompile Include="cdxCSizingDialog.cpp">
+      <Filter>Source Files\界面</Filter>
+    </ClCompile>
+    <ClCompile Include="BAS_DRAW_FUN.cpp">
+      <Filter>Source Files\基本计算绘图类</Filter>
+    </ClCompile>
+    <ClCompile Include="ArcGQ.cpp">
+      <Filter>Source Files\OTHER</Filter>
+    </ClCompile>
+    <ClCompile Include="DocData.cpp">
+      <Filter>Source Files\OTHER</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files\OTHER</Filter>
+    </ClCompile>
+    <ClCompile Include="rxdebug.cpp">
+      <Filter>Source Files\OTHER</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseSettting.cpp">
+      <Filter>Source Files\命令</Filter>
+    </ClCompile>
+    <ClCompile Include="ROADANDRAIL.cpp">
+      <Filter>Source Files\命令</Filter>
+    </ClCompile>
+    <ClCompile Include="ROADANDRAILCommands.cpp">
+      <Filter>Source Files\命令</Filter>
+    </ClCompile>
+    <ClCompile Include="FourJDLocationC_S.cpp">
+      <Filter>Source Files\基本计算模型</Filter>
+    </ClCompile>
+    <ClCompile Include="JDLuanLink.cpp">
+      <Filter>Source Files\基本计算模型</Filter>
+    </ClCompile>
+    <ClCompile Include="LLTuLink.cpp">
+      <Filter>Source Files\基本计算模型</Filter>
+    </ClCompile>
+    <ClCompile Include="Norm3JD.cpp">
+      <Filter>Source Files\基本计算模型</Filter>
+    </ClCompile>
+    <ClCompile Include="PolyLineCal.cpp">
+      <Filter>Source Files\基本计算模型</Filter>
+    </ClCompile>
+    <ClCompile Include="SPIRAL.cpp">
+      <Filter>Source Files\基本计算模型</Filter>
+    </ClCompile>
+    <ClCompile Include="SpiralX.cpp">
+      <Filter>Source Files\基本计算模型</Filter>
+    </ClCompile>
+    <ClCompile Include="SpiralY.cpp">
+      <Filter>Source Files\基本计算模型</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreeJDCalA1A2FromT1T2R.cpp">
+      <Filter>Source Files\基本计算模型</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreeJDCalThisAFromThatA_PreT_R.cpp">
+      <Filter>Source Files\基本计算模型</Filter>
+    </ClCompile>
+    <ClCompile Include="YYCLink.cpp">
+      <Filter>Source Files\基本计算模型</Filter>
+    </ClCompile>
+    <ClCompile Include="YYLuanLink.cpp">
+      <Filter>Source Files\基本计算模型</Filter>
+    </ClCompile>
+    <ClCompile Include="YYSLink.cpp">
+      <Filter>Source Files\基本计算模型</Filter>
+    </ClCompile>
+    <ClCompile Include="ZYLink.cpp">
+      <Filter>Source Files\基本计算模型</Filter>
+    </ClCompile>
+    <ClCompile Include="BCARC.cpp">
+      <Filter>Source Files\定线工具</Filter>
+    </ClCompile>
+    <ClCompile Include="BCCreateXLEntity.cpp">
+      <Filter>Source Files\定线工具</Filter>
+    </ClCompile>
+    <ClCompile Include="BCPPP.cpp">
+      <Filter>Source Files\定线工具</Filter>
+    </ClCompile>
+    <ClCompile Include="BCTPP.cpp">
+      <Filter>Source Files\定线工具</Filter>
+    </ClCompile>
+    <ClCompile Include="BCTPR.cpp">
+      <Filter>Source Files\定线工具</Filter>
+    </ClCompile>
+    <ClCompile Include="BCTTP.cpp">
+      <Filter>Source Files\定线工具</Filter>
+    </ClCompile>
+    <ClCompile Include="LocationDlg.cpp">
+      <Filter>Source Files\定线工具</Filter>
+    </ClCompile>
+    <ClCompile Include="XLSJ.cpp">
+      <Filter>Source Files\定线工具</Filter>
+    </ClCompile>
+    <ClCompile Include="YYQXLink.cpp">
+      <Filter>Source Files\定线工具</Filter>
+    </ClCompile>
+    <ClCompile Include="DirdlgDlg.cpp">
+      <Filter>Source Files\项目管理</Filter>
+    </ClCompile>
+    <ClCompile Include="SHELLTREE.CPP">
+      <Filter>Source Files\项目管理</Filter>
+    </ClCompile>
+    <ClCompile Include="FastTin.cpp">
+      <Filter>Source Files\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="global.cpp">
+      <Filter>Source Files\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="DLBdlg.cpp">
+      <Filter>Source Files\平面设计</Filter>
+    </ClCompile>
+    <ClCompile Include="DTMODEDLG.cpp">
+      <Filter>Source Files\平面设计</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogSetDirectRamp.cpp">
+      <Filter>Source Files\平面设计</Filter>
+    </ClCompile>
+    <ClCompile Include="InRoadNameDlg.cpp">
+      <Filter>Source Files\平面设计</Filter>
+    </ClCompile>
+    <ClCompile Include="JDTDSETTINGDLG.cpp">
+      <Filter>Source Files\平面设计</Filter>
+    </ClCompile>
+    <ClCompile Include="JD_CENTER.cpp">
+      <Filter>Source Files\平面设计</Filter>
+    </ClCompile>
+    <ClCompile Include="JdCenGridCtrl.cpp">
+      <Filter>Source Files\平面设计</Filter>
+    </ClCompile>
+    <ClCompile Include="JdCenterInputDlg.cpp">
+      <Filter>Source Files\平面设计</Filter>
+    </ClCompile>
+    <ClCompile Include="PMDIALOG.cpp">
+      <Filter>Source Files\平面设计</Filter>
+    </ClCompile>
+    <ClCompile Include="PmDrawDialog.cpp">
+      <Filter>Source Files\平面设计</Filter>
+    </ClCompile>
+    <ClCompile Include="XLLinkDlg.cpp">
+      <Filter>Source Files\平面设计</Filter>
+    </ClCompile>
+    <ClCompile Include="hooseLMX.cpp">
+      <Filter>Source Files\平面设计</Filter>
+    </ClCompile>
+    <ClCompile Include="Bri.cpp">
+      <Filter>Source Files\纵断面</Filter>
+    </ClCompile>
+    <ClCompile Include="BriDlg.cpp">
+      <Filter>Source Files\纵断面</Filter>
+    </ClCompile>
+    <ClCompile Include="DMDHQFS.cpp">
+      <Filter>Source Files\纵断面</Filter>
+    </ClCompile>
+    <ClCompile Include="DMX.cpp">
+      <Filter>Source Files\纵断面</Filter>
+    </ClCompile>
+    <ClCompile Include="DMXReactor.cpp">
+      <Filter>Source Files\纵断面</Filter>
+    </ClCompile>
+    <ClCompile Include="DeshBz.cpp">
+      <Filter>Source Files\纵断面</Filter>
+    </ClCompile>
+    <ClCompile Include="Dmx_lcb.cpp">
+      <Filter>Source Files\纵断面</Filter>
+    </ClCompile>
+    <ClCompile Include="Dmx_pqx.cpp">
+      <Filter>Source Files\纵断面</Filter>
+    </ClCompile>
+    <ClCompile Include="EarhBz.cpp">
+      <Filter>Source Files\纵断面</Filter>
+    </ClCompile>
+    <ClCompile Include="EditDMXDlg.cpp">
+      <Filter>Source Files\纵断面</Filter>
+    </ClCompile>
+    <ClCompile Include="GTZDM.cpp">
+      <Filter>Source Files\纵断面</Filter>
+    </ClCompile>
+    <ClCompile Include="GTZDMReactor.cpp">
+      <Filter>Source Files\纵断面</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalZDMData.cpp">
+      <Filter>Source Files\纵断面</Filter>
+    </ClCompile>
+    <ClCompile Include="InputZDM.cpp">
+      <Filter>Source Files\纵断面</Filter>
+    </ClCompile>
+    <ClCompile Include="MODIFY_GTZDM.cpp">
+      <Filter>Source Files\纵断面</Filter>
+    </ClCompile>
+    <ClCompile Include="NCDMXCS.cpp">
+      <Filter>Source Files\纵断面</Filter>
+    </ClCompile>
+    <ClCompile Include="ORI_SCALE.cpp">
+      <Filter>Source Files\纵断面</Filter>
+    </ClCompile>
+    <ClCompile Include="PickDmxDockBar.cpp">
+      <Filter>Source Files\纵断面</Filter>
+    </ClCompile>
+    <ClCompile Include="PickXdmDmx.cpp">
+      <Filter>Source Files\纵断面</Filter>
+    </ClCompile>
+    <ClCompile Include="ReWriteFILE.cpp">
+      <Filter>Source Files\纵断面</Filter>
+    </ClCompile>
+    <ClCompile Include="SAVEZDMDLG.cpp">
+      <Filter>Source Files\纵断面</Filter>
+    </ClCompile>
+    <ClCompile Include="SetRoadName.cpp">
+      <Filter>Source Files\纵断面</Filter>
+    </ClCompile>
+    <ClCompile Include="TunDlg1.cpp">
+      <Filter>Source Files\纵断面</Filter>
+    </ClCompile>
+    <ClCompile Include="ZDMKZBG.cpp">
+      <Filter>Source Files\纵断面</Filter>
+    </ClCompile>
+    <ClCompile Include="ZDMSJ.cpp">
+      <Filter>Source Files\纵断面</Filter>
+    </ClCompile>
+    <ClCompile Include="ZDMStandardDlg.cpp">
+      <Filter>Source Files\纵断面</Filter>
+    </ClCompile>
+    <ClCompile Include="ZMZDPMFA.cpp">
+      <Filter>Source Files\纵断面</Filter>
+    </ClCompile>
+    <ClCompile Include="ZdmOriDataDlg.cpp">
+      <Filter>Source Files\纵断面</Filter>
+    </ClCompile>
+    <ClCompile Include="tun.cpp">
+      <Filter>Source Files\纵断面</Filter>
+    </ClCompile>
+    <ClCompile Include="SetCGBZDlg.cpp">
+      <Filter>Source Files\超高</Filter>
+    </ClCompile>
+    <ClCompile Include="SetCGJSCS.cpp">
+      <Filter>Source Files\超高</Filter>
+    </ClCompile>
+    <ClCompile Include="SetJKNorm.cpp">
+      <Filter>Source Files\超高</Filter>
+    </ClCompile>
+    <ClCompile Include="SuphFDDataDlg.cpp">
+      <Filter>Source Files\超高</Filter>
+    </ClCompile>
+    <ClCompile Include="SuphFDSheet.cpp">
+      <Filter>Source Files\超高</Filter>
+    </ClCompile>
+    <ClCompile Include="calcg.cpp">
+      <Filter>Source Files\超高</Filter>
+    </ClCompile>
+    <ClCompile Include="DBBZ.cpp">
+      <Filter>Source Files\平纵面绘图</Filter>
+    </ClCompile>
+    <ClCompile Include="DRAWXYTZD.cpp">
+      <Filter>Source Files\平纵面绘图</Filter>
+    </ClCompile>
+    <ClCompile Include="DUANBUHX.cpp">
+      <Filter>Source Files\平纵面绘图</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawJWGRID.cpp">
+      <Filter>Source Files\平纵面绘图</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawPM.cpp">
+      <Filter>Source Files\平纵面绘图</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawPmDlg.cpp">
+      <Filter>Source Files\平纵面绘图</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawZDMDlg.cpp">
+      <Filter>Source Files\平纵面绘图</Filter>
+    </ClCompile>
+    <ClCompile Include="PmCutDlg.cpp">
+      <Filter>Source Files\平纵面绘图</Filter>
+    </ClCompile>
+    <ClCompile Include="SetDrawQXYS.cpp">
+      <Filter>Source Files\平纵面绘图</Filter>
+    </ClCompile>
+    <ClCompile Include="TrimTuSettingDialog.cpp">
+      <Filter>Source Files\平纵面绘图</Filter>
+    </ClCompile>
+    <ClCompile Include="WxpLmDlg.cpp">
+      <Filter>Source Files\平纵面绘图</Filter>
+    </ClCompile>
+    <ClCompile Include="ZDMHT.cpp">
+      <Filter>Source Files\平纵面绘图</Filter>
+    </ClCompile>
+    <ClCompile Include="ZDMHT1.cpp">
+      <Filter>Source Files\平纵面绘图</Filter>
+    </ClCompile>
+    <ClCompile Include="BtnST.cpp">
+      <Filter>Source Files\横断面</Filter>
+    </ClCompile>
+    <ClCompile Include="CalSta.cpp">
+      <Filter>Source Files\横断面</Filter>
+    </ClCompile>
+    <ClCompile Include="Cross.cpp">
+      <Filter>Source Files\横断面</Filter>
+    </ClCompile>
+    <ClCompile Include="DesLineReact.cpp">
+      <Filter>Source Files\横断面</Filter>
+    </ClCompile>
+    <ClCompile Include="DesignLine.cpp">
+      <Filter>Source Files\横断面</Filter>
+    </ClCompile>
+    <ClCompile Include="EarthLine.cpp">
+      <Filter>Source Files\横断面</Filter>
+    </ClCompile>
+    <ClCompile Include="EditBP.cpp">
+      <Filter>Source Files\横断面</Filter>
+    </ClCompile>
+    <ClCompile Include="FLATCOMBOBOX.CPP">
+      <Filter>Source Files\横断面</Filter>
+    </ClCompile>
+    <ClCompile Include="GetHdmDmx.cpp">
+      <Filter>Source Files\横断面</Filter>
+    </ClCompile>
+    <ClCompile Include="GouPDPage.cpp">
+      <Filter>Source Files\横断面</Filter>
+    </ClCompile>
+    <ClCompile Include="GouPDSheet.cpp">
+      <Filter>Source Files\横断面</Filter>
+    </ClCompile>
+    <ClCompile Include="HDMTdlg.cpp">
+      <Filter>Source Files\横断面</Filter>
+    </ClCompile>
+    <ClCompile Include="HdmDaoHang.cpp">
+      <Filter>Source Files\横断面</Filter>
+    </ClCompile>
+    <ClCompile Include="HdmDataBase.cpp">
+      <Filter>Source Files\横断面</Filter>
+    </ClCompile>
+    <ClCompile Include="HdmDes.cpp">
+      <Filter>Source Files\横断面</Filter>
+    </ClCompile>
+    <ClCompile Include="HdmDmx.cpp">
+      <Filter>Source Files\横断面</Filter>
+    </ClCompile>
+    <ClCompile Include="HdmText.cpp">
+      <Filter>Source Files\横断面</Filter>
+    </ClCompile>
+    <ClCompile Include="JSGOU.cpp">
+      <Filter>Source Files\横断面</Filter>
+    </ClCompile>
+    <ClCompile Include="LMSheetDlg.cpp">
+      <Filter>Source Files\横断面</Filter>
+    </ClCompile>
+    <ClCompile Include="LTGOU.cpp">
+      <Filter>Source Files\横断面</Filter>
+    </ClCompile>
+    <ClCompile Include="LTGouReactor.cpp">
+      <Filter>Source Files\横断面</Filter>
+    </ClCompile>
+    <ClCompile Include="PPCDSheet.cpp">
+      <Filter>Source Files\横断面</Filter>
+    </ClCompile>
+    <ClCompile Include="PPCDsj.cpp">
+      <Filter>Source Files\横断面</Filter>
+    </ClCompile>
+    <ClCompile Include="StaDataSheet.cpp">
+      <Filter>Source Files\横断面</Filter>
+    </ClCompile>
+    <ClCompile Include="lmsj.cpp">
+      <Filter>Source Files\横断面</Filter>
+    </ClCompile>
+    <ClCompile Include="GTZDK.cpp">
+      <Filter>Source Files\占地宽设计</Filter>
+    </ClCompile>
+    <ClCompile Include="ZDKINPUT.cpp">
+      <Filter>Source Files\占地宽设计</Filter>
+    </ClCompile>
+    <ClCompile Include="ZDKSHEET.cpp">
+      <Filter>Source Files\占地宽设计</Filter>
+    </ClCompile>
+    <ClCompile Include="OutTAB.cpp">
+      <Filter>Source Files\表格输出</Filter>
+    </ClCompile>
+    <ClCompile Include="QBTMLDlg.cpp">
+      <Filter>Source Files\表格输出</Filter>
+    </ClCompile>
+    <ClCompile Include="TABDlg.cpp">
+      <Filter>Source Files\表格输出</Filter>
+    </ClCompile>
+    <ClCompile Include="Ado.cpp">
+      <Filter>Source Files\数据库</Filter>
+    </ClCompile>
+    <ClCompile Include="XLDataBase.cpp">
+      <Filter>Source Files\数据库</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockComputerFun.cpp">
+      <Filter>Source Files\积木法</Filter>
+    </ClCompile>
+    <ClCompile Include="JMBXDlg.cpp">
+      <Filter>Source Files\积木法</Filter>
+    </ClCompile>
+    <ClCompile Include="JMXYDLG.cpp">
+      <Filter>Source Files\积木法</Filter>
+    </ClCompile>
+    <ClCompile Include="SetArcOrCircle.cpp">
+      <Filter>Source Files\积木法</Filter>
+    </ClCompile>
+    <ClCompile Include="SetLineDlg1.cpp">
+      <Filter>Source Files\积木法</Filter>
+    </ClCompile>
+    <ClCompile Include="SetSprialdlg.cpp">
+      <Filter>Source Files\积木法</Filter>
+    </ClCompile>
+    <ClCompile Include="Draw3D.cpp">
+      <Filter>Source Files\三维</Filter>
+    </ClCompile>
+    <ClCompile Include="TRIM.cpp">
+      <Filter>Source Files\带状分幅出图</Filter>
+    </ClCompile>
+    <ClCompile Include="TRIMDIAG.cpp">
+      <Filter>Source Files\带状分幅出图</Filter>
+    </ClCompile>
+    <ClCompile Include="TRIMDIALOG.cpp">
+      <Filter>Source Files\带状分幅出图</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicFun.cpp">
+      <Filter>Source Files\铁路</Filter>
+    </ClCompile>
+    <ClCompile Include="GTZX.cpp">
+      <Filter>Source Files\铁路</Filter>
+    </ClCompile>
+    <ClCompile Include="GTZX2.cpp">
+      <Filter>Source Files\铁路</Filter>
+    </ClCompile>
+    <ClCompile Include="Hhqx.cpp">
+      <Filter>Source Files\铁路</Filter>
+    </ClCompile>
+    <ClCompile Include="triDTM_road.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyBar.cpp">
+      <Filter>Source Files\界面</Filter>
+    </ClCompile>
+    <ClCompile Include="excel9.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckToolBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="comToolBarCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DataTrans.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DMXDataTrans.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RoadDesignWorkingDatabase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RoadAutoDesign.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RoadAutoDesignDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="COverallDrawParaDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CHDrawParaDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CVDrawParaDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CCrossDrawParaDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="COpDrawingSheet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawDYTdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawGCSLBandDYT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CAutoDrawGutterDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CSetOutPileAttri.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CSetLevelCtrlDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CGutInteractDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JSGouReactor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CJPInfor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ckzddlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CProfileOpt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="COutpRoadCollTabDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MROADExcel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CCrossEarthInputDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SelTINDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DLInintLwDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EditJDdlg.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="oldnetdog\Netdog.h">
+      <Filter>Source Files\老网络狗</Filter>
+    </ClInclude>
+    <ClInclude Include="ARXBaseDraw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AcDialogBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AcToolBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ado.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AdskDMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ArcGQ.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BAS_DRAW_FUN.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BAS_DRAW_FUN_JYX.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BAS_DRAW_FUN_RAIL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BCARC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BCCreateXLEntity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="menubar\BCMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BCPPP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BCTPP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BCTPR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BCTTP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BDCALDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BTGridCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BXLMK.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseSettting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicFun.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockComputerFun.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bri.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BriDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BtnST.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CWorkDir.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CXLMBG.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CalSta.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CalYDArea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NewGridCtrl\CellRange.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NewGridCtrl\CheckComboBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cross.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DBBZ.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DELDBBZ.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DLBdlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DMDHQFS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DMX.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DMXReactor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DMX_LCB.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DRAWXYTZD.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DTMODEDLG.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DUANBUHX.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DesLineReact.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DeshBz.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DesignLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogSetDirectRamp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DirdlgDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dmx_pqx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DocData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DockLocationTool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DockTypeHdmBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Draw3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawBDCIR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawBianXianDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawJWGRID.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawPM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawPmDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawQXYS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawRoadsDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawZDMDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EDITLMK.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EXMANAGER.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EarhBz.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EditAllRoads.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EditBP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EditDMXDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EditZDKDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FLATCOMBOBOX.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FLOATMENU.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FastTin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FourJDLocationC_S.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GTZDK.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GTZDM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GTZDMReactor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GTZX.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GTZX2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GTZX2_JYX.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GTZX_JYX.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GetHdmDmx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalZDMData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GouPDPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GouPDSheet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NewGridCtrl\GridCell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NewGridCtrl\GridCellBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NewGridCtrl\GridCellCheckCombo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NewGridCtrl\GridCellCombo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NewGridCtrl\GridCellDateTime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NewGridCtrl\GridCellNumeric.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NewGridCtrl\GridCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NewGridCtrl\GridDropTarget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gsmh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HDMTdlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HdmDaoHang.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HdmDataBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HdmDes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HdmDmx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HdmText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Hhqx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NewGridCtrl\InPlaceEdit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InRoadNameDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputZDM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JDLuanLink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JDTDSETTINGDLG.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JD_CENTER.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMBXDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JMXYDLG.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JSGOU.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JdCenGridCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JdCenterInputDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KZBGFRAME.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="menubar\KeyHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LCZZBDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LLTuLink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LMKGridCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LMSheetDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LTGOU.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LTGouReactor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LocationDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LocationDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MODIFY_GTZDM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NewGridCtrl\MemDC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="menubar\MenuBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="menubar\MenuBarXP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="menubar\MenuXP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLayout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NCDMXCS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NetDogAPI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Norm3JD.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NoseDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ORI_SCALE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OutTAB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PMDIALOG.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PMGUIDE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PPCDSheet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PPCDsj.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PickDmxDockBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PickXdmDmx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PmCutDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PmDrawDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PmPointer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PolyLineCal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QBTMLDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReWriteFILE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ResizableDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SAVEZDMDLG.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SELBXKD.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SHELLTREE.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SPIRAL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SetArcOrCircle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SetCGBZDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SetCGJSCS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SetDrawQXYS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SetJKNorm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SetLineDlg1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SetRoadName.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SetSprialdlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpiralX.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpiralY.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StaDataSheet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdArx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="menubar\Subclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SuphFDDataDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SuphFDSheet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TABDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TRIMDIAG.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TRIMDIALOG.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TRIMPMT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreeJDCalA1A2FromT1T2R.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreeJDCalThisAFromThatA_PreT_R.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NewGridCtrl\TitleTip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="menubar\ToolBarXP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TrimTuSettingDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TunDlg1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UltraCArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vect3d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WxpLmDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XLDataBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XLDataBase_JYX.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XLLinkDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XLSJ.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="YYCLink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="YYLuanLink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="YYQXLink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="YYSLink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ZBTOLC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ZDKINPUT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ZDKSHEET.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ZDMHT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ZDMHT1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ZDMKZBG.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ZDMSJ.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ZDMStandardDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ZDMTBX.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ZMZDPMFA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ZYLink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ZdmOriDataDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="calcg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cdxCDynamicControlsManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cdxCSizeIconCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cdxCSizingDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hooseLMX.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lmsj.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rxdebug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tun.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="triDTM_road.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="excel9.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckToolBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataTrans.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DMXDataTrans.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectFolderDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RoadDesignWorkingDatabase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RoadAutoDesign.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RoadAutoDesignDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="COverallDrawParaDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CHDrawParaDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CVDrawParaDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CCrossDrawParaDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="COpDrawingSheet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawGCSLBandDYT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawDYTdlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CAutoDrawGutterDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CSetOutPileAttri.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CSetLevelCtrlDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CGutInteractDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JSGouReactor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CJPInfor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ckzddlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CProfileOpt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="COutpRoadCollTabDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MROADExcel.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CCrossEarthInputDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SelTINDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DLInintLwDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ROADANDRAIL.def">
+      <Filter>Source Files\命令</Filter>
+    </None>
+    <None Include="res\ROADANDRAIL.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico00001.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon1.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon2.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon3.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\示意图.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\纵断面图.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ObjectARX.prj" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ROADANDRAIL.rc">
+      <Filter>Source Files\命令</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,5 @@
+// Microsoft Visual C++ generated Help ID include file.
+// Used by ROADANDRAIL.rc
+//
+#define HIDC_STATIC                     0xffffffff    // IDD_DIALOG_DRAWZDM
+#define HIDOK                           0x1    // IDD_DIALOG_DELDBBZ

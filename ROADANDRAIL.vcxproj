@@ -1,0 +1,1690 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="CAD2010Debug|Win32">
+      <Configuration>CAD2010Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="CAD2010Debug|x64">
+      <Configuration>CAD2010Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="CAD2010_32|Win32">
+      <Configuration>CAD2010_32</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="CAD2010_32|x64">
+      <Configuration>CAD2010_32</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="CAD2010_PP|Win32">
+      <Configuration>CAD2010_PP</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="CAD2010_PP|x64">
+      <Configuration>CAD2010_PP</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="CAD2010_WXS|Win32">
+      <Configuration>CAD2010_WXS</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="CAD2010_WXS|x64">
+      <Configuration>CAD2010_WXS</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="CAD2010_zzy|Win32">
+      <Configuration>CAD2010_zzy</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="CAD2010_zzy|x64">
+      <Configuration>CAD2010_zzy</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="CAD2016|Win32">
+      <Configuration>CAD2016</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="CAD2016|x64">
+      <Configuration>CAD2016</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="FullDebug|Win32">
+      <Configuration>FullDebug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="FullDebug|x64">
+      <Configuration>FullDebug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7C018DEF-44E2-4421-818B-6F4236C39DE6}</ProjectGuid>
+    <SccProjectName />
+    <SccAuxPath />
+    <SccLocalPath />
+    <SccProvider />
+    <Keyword>MFCProj</Keyword>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CAD2010Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CAD2010_32|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v90</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CAD2016|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CAD2010_WXS|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CAD2010_PP|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CAD2010_zzy|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CAD2010Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v90</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CAD2010_32|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v90</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CAD2016|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CAD2010_WXS|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CAD2010_PP|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CAD2010_zzy|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v90</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='FullDebug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='FullDebug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='CAD2010Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='CAD2010_32|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='CAD2016|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='CAD2010_WXS|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='CAD2010_PP|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='CAD2010_zzy|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='CAD2010Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='CAD2010_32|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='CAD2016|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='CAD2010_WXS|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='CAD2010_PP|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='CAD2010_zzy|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='FullDebug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='FullDebug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='FullDebug|Win32'">.\ROADANDRAIL___Win32_FullDebug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='FullDebug|Win32'">.\ROADANDRAIL___Win32_FullDebug\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='FullDebug|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='FullDebug|x64'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='CAD2010Debug|Win32'">.\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='CAD2010_32|Win32'">..\软件\MRoad_32</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='CAD2016|Win32'">.\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='CAD2010_WXS|Win32'">F:\软件\MRoad_32</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='CAD2010_PP|Win32'">.\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='CAD2010_zzy|Win32'">.\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\Debug\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='CAD2010Debug|Win32'">.\Debug\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='CAD2010_32|Win32'">.\Debug\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='CAD2016|Win32'">.\Debug\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='CAD2010_WXS|Win32'">.\Debug\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='CAD2010_PP|Win32'">.\Debug\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='CAD2010_zzy|Win32'">.\Debug\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='CAD2010Debug|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='CAD2010_32|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='CAD2016|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='CAD2010_WXS|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='CAD2010_PP|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='CAD2010_zzy|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='CAD2010Debug|x64'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='CAD2010_32|x64'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='CAD2016|x64'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='CAD2010_WXS|x64'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='CAD2010_PP|x64'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='CAD2010_zzy|x64'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\Release\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='CAD2010Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='CAD2010_32|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='CAD2016|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='CAD2010_WXS|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='CAD2010_PP|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='CAD2010_zzy|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='CAD2010Debug|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='CAD2010_32|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='CAD2016|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='CAD2010_WXS|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='CAD2010_PP|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='CAD2010_zzy|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='CAD2010Debug|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='CAD2010_32|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='CAD2016|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='CAD2010_WXS|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='CAD2010_PP|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='CAD2010_zzy|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='CAD2010Debug|x64'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='CAD2010_32|x64'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='CAD2016|x64'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='CAD2010_WXS|x64'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='CAD2010_PP|x64'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='CAD2010_zzy|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='CAD2010Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='CAD2010_32|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='CAD2016|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='CAD2010_WXS|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='CAD2010_PP|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='CAD2010_zzy|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='CAD2010Debug|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='CAD2010_32|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='CAD2016|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='CAD2010_WXS|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='CAD2010_PP|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='CAD2010_zzy|x64'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='FullDebug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='FullDebug|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='FullDebug|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='FullDebug|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='FullDebug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='FullDebug|x64'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\ObjectARX 2016\inc;C:\ObjectARX 2016\inc-win32;$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='CAD2010Debug|Win32'">C:\ObjectARX 2016\inc;C:\ObjectARX 2016\inc-win32;$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='CAD2010_32|Win32'">C:\ObjectARX_2010\inc;C:\ObjectARX_2010\inc-win32;$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='CAD2016|Win32'">C:\ObjectARX 2016\inc;C:\ObjectARX 2016\inc-win32;$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='CAD2010_WXS|Win32'">F:\ObjectARX 2010\inc-win32;F:\ObjectARX 2010\inc;$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='CAD2010_PP|Win32'">C:\ObjectARX 2016\inc;C:\ObjectARX 2016\inc-win32;$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='CAD2010_zzy|Win32'">C:\ObjectARX 2016\inc;C:\ObjectARX 2016\inc-win32;$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Autodesk_ObjectARX_2016_Win_64_and_32_Bit\inc;C:\Autodesk_ObjectARX_2016_Win_64_and_32_Bit\inc-x64;$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='CAD2010Debug|x64'">C:\ObjectARX_2010\inc;C:\ObjectARX_2010\inc-x64;$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='CAD2010_32|x64'">C:\ObjectARX 2010\inc;C:\ObjectARX 2010\inc-x32;$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='CAD2016|x64'">C:\Autodesk_ObjectARX_2016_Win_64_and_32_Bit\inc;C:\Autodesk_ObjectARX_2016_Win_64_and_32_Bit\inc-x64;$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='CAD2010_WXS|x64'">F:\ObjectARX 2010\inc;F:\ObjectARX 2010\inc-x64;$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='CAD2010_PP|x64'">C:\ObjectARX 2010\inc;C:\ObjectARX 2010\inc-x64;$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='CAD2010_zzy|x64'">C:\ObjectARX 2010\inc;C:\ObjectARX 2010\inc-x64;$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\ObjectARX 2016\lib-win32;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='CAD2010Debug|Win32'">C:\ObjectARX 2016\lib-win32;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='CAD2010_32|Win32'">C:\ObjectARX_2010\lib-win32;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='CAD2016|Win32'">C:\ObjectARX 2016\lib-win32;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='CAD2010_WXS|Win32'">F:\ObjectARX 2010\lib-win32;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='CAD2010_PP|Win32'">C:\ObjectARX 2016\lib-win32;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='CAD2010_zzy|Win32'">C:\ObjectARX 2016\lib-win32;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Autodesk_ObjectARX_2016_Win_64_and_32_Bit\lib-x64;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='CAD2010Debug|x64'">C:\ObjectARX_2010\lib-x64;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='CAD2010_32|x64'">C:\ObjectARX 2010\lib-x32;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='CAD2016|x64'">C:\Autodesk_ObjectARX_2016_Win_64_and_32_Bit\lib-x64;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='CAD2010_WXS|x64'">F:\ObjectARX 2010\lib-x64;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='CAD2010_PP|x64'">C:\ObjectARX 2010\lib-x64;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='CAD2010_zzy|x64'">C:\ObjectARX 2010\lib-x64;$(LibraryPath)</LibraryPath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\ObjectARX 2010\inc;C:\ObjectARX 2010\inc-win32;$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\ObjectARX 2016\inc;C:\ObjectARX 2016\inc-x64;$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\ObjectARX 2010\lib-win32;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\ObjectARX 2016\lib-x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <TargetExt>.arx</TargetExt>
+    <TargetName>ROADDesign</TargetName>
+    <OutDir>..\软件\MRoad2016 - 铁一</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CAD2010Debug|x64'">
+    <TargetExt>.arx</TargetExt>
+    <TargetName>ROADDesign</TargetName>
+    <OutDir>D:\大临\MRoad\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CAD2010_32|x64'">
+    <TargetExt>.arx</TargetExt>
+    <TargetName>ROADDesign</TargetName>
+    <OutDir>F:\编程\改移道路\MRoad_32\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CAD2016|x64'">
+    <TargetExt>.arx</TargetExt>
+    <TargetName>ROADDesign</TargetName>
+    <OutDir>D:\大临\MRoad2016 - 铁一\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CAD2010_WXS|x64'">
+    <TargetExt>.arx</TargetExt>
+    <TargetName>ROADDesign</TargetName>
+    <OutDir>F:\软件\MRoad</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CAD2010_PP|x64'">
+    <TargetExt>.arx</TargetExt>
+    <TargetName>ROADDesign</TargetName>
+    <OutDir>..\MRoad</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CAD2010_zzy|x64'">
+    <TargetExt>.arx</TargetExt>
+    <TargetName>ROADDesign</TargetName>
+    <OutDir>E:\改移道路\MRoad</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <TargetExt>.arx</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CAD2010_32|Win32'">
+    <TargetName>ROADDesign</TargetName>
+    <TargetExt>.arx</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <TargetExt>.arx</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='FullDebug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_AFXEXT;_FULLDEBUG_;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderOutputFile>FullDebug/ROADANDRAIL.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\ROADANDRAIL___Win32_FullDebug/</AssemblerListingLocation>
+      <ObjectFileName>FullDebug/</ObjectFileName>
+      <ProgramDataBaseFileName>FullDebug/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <OpenMPSupport>true</OpenMPSupport>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>rxapi.lib;acrx15.lib;acdb15.lib;acutil15.lib;acge15d.lib;acgiapi.lib;achapi15.lib;acISMobj15.lib;acad.lib;acedapi.lib;acsiobj.lib;adui15.lib;acui15.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>FullDebug/penglihuiROADANDRAIL.arx</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ModuleDefinitionFile>.\ROADANDRAIL.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>FullDebug/penglihuiROADANDRAIL.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <ImportLibrary>FullDebug/penglihuiROADANDRAIL.lib</ImportLibrary>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\ROADANDRAIL___Win32_FullDebug/ROADANDRAIL.tlb</TypeLibraryName>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_AFXDLL;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='FullDebug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_AFXEXT;_FULLDEBUG_;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderOutputFile>FullDebug/ROADANDRAIL.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\ROADANDRAIL___Win32_FullDebug/</AssemblerListingLocation>
+      <ObjectFileName>FullDebug/</ObjectFileName>
+      <ProgramDataBaseFileName>FullDebug/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>rxapi.lib;acrx15.lib;acdb15.lib;acutil15.lib;acge15d.lib;acgiapi.lib;achapi15.lib;acISMobj15.lib;acad.lib;acedapi.lib;acsiobj.lib;adui15.lib;acui15.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>FullDebug/penglihuiROADANDRAIL.arx</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ModuleDefinitionFile>.\ROADANDRAIL.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>FullDebug/penglihuiROADANDRAIL.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <ImportLibrary>FullDebug/penglihuiROADANDRAIL.lib</ImportLibrary>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TypeLibraryName>.\ROADANDRAIL___Win32_FullDebug/ROADANDRAIL.tlb</TypeLibraryName>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_AFXDLL;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(ProjectDir);</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_AFXEXT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Debug/ROADANDRAIL.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <WarningLevel>Level1</WarningLevel>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <OpenMPSupport>true</OpenMPSupport>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>axdb.lib;accore.lib;acad.lib;acui20.lib;adui20.lib;rxapi.lib;acdb20.lib;acge20.lib;ac1st20.lib;acISMobj20.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>F:\复件 vizrail2006\ROADDesign.arx</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ModuleDefinitionFile>.\ROADANDRAIL.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug/ROADDesign.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <ImportLibrary>.\Debug/ROADDesign.lib</ImportLibrary>
+      <AdditionalOptions>/SAFESEH:NO %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Debug/ROADANDRAIL.tlb</TypeLibraryName>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_AFXDLL;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='CAD2010Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(ProjectDir);</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_AFXEXT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Debug/ROADANDRAIL.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <WarningLevel>Level1</WarningLevel>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <OpenMPSupport>true</OpenMPSupport>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>axdb.lib;accore.lib;acad.lib;acui20.lib;adui20.lib;rxapi.lib;acdb20.lib;acge20.lib;ac1st20.lib;acISMobj20.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>F:\复件 vizrail2006\ROADDesign.arx</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ModuleDefinitionFile>.\ROADANDRAIL.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug/ROADDesign.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <ImportLibrary>.\Debug/ROADDesign.lib</ImportLibrary>
+      <AdditionalOptions>/SAFESEH:NO %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Debug/ROADANDRAIL.tlb</TypeLibraryName>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_AFXDLL;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='CAD2010_32|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(ProjectDir);</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_AFXEXT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Debug/ROADANDRAIL.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <WarningLevel>Level1</WarningLevel>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <OpenMPSupport>true</OpenMPSupport>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>axdb.lib;acad.lib;acui18.lib;adui18.lib;rxapi.lib;acdb18.lib;acge18.lib;acismobj18.lib;acedapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>F:\课题组软件\改移道路正式\软件\MRoad_32\ROADDesign.arx</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ModuleDefinitionFile>.\ROADANDRAIL.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug/ROADDesign.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <ImportLibrary>.\Debug/ROADDesign.lib</ImportLibrary>
+      <AdditionalOptions>/SAFESEH:NO %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Debug/ROADANDRAIL.tlb</TypeLibraryName>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_AFXDLL;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='CAD2016|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(ProjectDir);</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_AFXEXT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Debug/ROADANDRAIL.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <WarningLevel>Level1</WarningLevel>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <OpenMPSupport>true</OpenMPSupport>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>axdb.lib;accore.lib;acad.lib;acui20.lib;adui20.lib;rxapi.lib;acdb20.lib;acge20.lib;ac1st20.lib;acISMobj20.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>F:\复件 vizrail2006\ROADDesign.arx</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ModuleDefinitionFile>.\ROADANDRAIL.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug/ROADDesign.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <ImportLibrary>.\Debug/ROADDesign.lib</ImportLibrary>
+      <AdditionalOptions>/SAFESEH:NO %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Debug/ROADANDRAIL.tlb</TypeLibraryName>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_AFXDLL;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='CAD2010_WXS|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(ProjectDir);</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_AFXEXT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Debug/ROADANDRAIL.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <WarningLevel>Level1</WarningLevel>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <OpenMPSupport>true</OpenMPSupport>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>axdb.lib;acad.lib;acui18.lib;adui18.lib;rxapi.lib;acdb18.lib;acge18.lib;acismobj18.lib;acedapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>F:\软件\MRoad_32\ROADDesign.arx</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ModuleDefinitionFile>.\ROADANDRAIL.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug/ROADDesign.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <ImportLibrary>.\Debug/ROADDesign.lib</ImportLibrary>
+      <AdditionalOptions>/SAFESEH:NO %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Debug/ROADANDRAIL.tlb</TypeLibraryName>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_AFXDLL;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='CAD2010_PP|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(ProjectDir);</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_AFXEXT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Debug/ROADANDRAIL.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <WarningLevel>Level1</WarningLevel>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <OpenMPSupport>true</OpenMPSupport>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>axdb.lib;accore.lib;acad.lib;acui20.lib;adui20.lib;rxapi.lib;acdb20.lib;acge20.lib;ac1st20.lib;acISMobj20.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>F:\复件 vizrail2006\ROADDesign.arx</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ModuleDefinitionFile>.\ROADANDRAIL.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug/ROADDesign.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <ImportLibrary>.\Debug/ROADDesign.lib</ImportLibrary>
+      <AdditionalOptions>/SAFESEH:NO %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Debug/ROADANDRAIL.tlb</TypeLibraryName>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_AFXDLL;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='CAD2010_zzy|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(ProjectDir);</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_AFXEXT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Debug/ROADANDRAIL.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <WarningLevel>Level1</WarningLevel>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <OpenMPSupport>true</OpenMPSupport>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>axdb.lib;accore.lib;acad.lib;acui20.lib;adui20.lib;rxapi.lib;acdb20.lib;acge20.lib;ac1st20.lib;acISMobj20.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>F:\复件 vizrail2006\ROADDesign.arx</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ModuleDefinitionFile>.\ROADANDRAIL.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug/ROADDesign.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <ImportLibrary>.\Debug/ROADDesign.lib</ImportLibrary>
+      <AdditionalOptions>/SAFESEH:NO %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Debug/ROADANDRAIL.tlb</TypeLibraryName>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_AFXDLL;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(ProjectDir);</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_AFXEXT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Debug/ROADANDRAIL.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>axdb.lib;accore.lib;acad.lib;acui20.lib;adui20.lib;rxapi.lib;acdb20.lib;acge20.lib;ac1st20.lib;acismobj20.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ModuleDefinitionFile>.\ROADANDRAIL.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug/ROADDesign.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <ImportLibrary>.\Debug/ROADDesign.lib</ImportLibrary>
+      <AdditionalOptions>/MACHINE:X64 %(AdditionalOptions)</AdditionalOptions>
+      <OutputFile>F:\课题组软件\改移道路正式\软件\MRoad2016 - 铁一\ROADDesign.arx</OutputFile>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TypeLibraryName>.\Debug/ROADANDRAIL.tlb</TypeLibraryName>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_AFXDLL;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='CAD2010Debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(ProjectDir);</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_AFXEXT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Debug/ROADANDRAIL.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <WarningLevel>Level3</WarningLevel>
+      <DisableSpecificWarnings>4996;4101;4244;4800;4305;4309;4267;4005;4091;4482;4102;4156;4700;4554;4715;4553;4258;4627;4804;4805;4002;4806;4819</DisableSpecificWarnings>
+      <OpenMPSupport>false</OpenMPSupport>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>axdb.lib;acad.lib;acui18.lib;adui18.lib;rxapi.lib;acdb18.lib;acge18.lib;acismobj18.lib;acedapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ModuleDefinitionFile>.\ROADANDRAIL.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug/ROADDesign.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <ImportLibrary>.\Debug/ROADDesign.lib</ImportLibrary>
+      <AdditionalOptions>/MACHINE:X64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalLibraryDirectories>C:\ObjectARX 2010\lib-x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <OutputFile>D:\大临\MRoad\ROADDesign.arx</OutputFile>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TypeLibraryName>.\Debug/ROADANDRAIL.tlb</TypeLibraryName>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_AFXDLL;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='CAD2010_32|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(ProjectDir);</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_AFXEXT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Debug/ROADANDRAIL.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>axdb.lib;acad.lib;acui18.lib;adui18.lib;rxapi.lib;acdb18.lib;acge18.lib;acismobj18.lib;acedapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ModuleDefinitionFile>.\ROADANDRAIL.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug/ROADDesign.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <ImportLibrary>.\Debug/ROADDesign.lib</ImportLibrary>
+      <AdditionalOptions>/MACHINE:X64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalLibraryDirectories>C:\ObjectARX 2010\lib-x32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <OutputFile>F:\编程\改移道路\MRoad_32\ROADDesign.arx</OutputFile>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TypeLibraryName>.\Debug/ROADANDRAIL.tlb</TypeLibraryName>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_AFXDLL;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='CAD2016|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(ProjectDir);</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_AFXEXT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Debug/ROADANDRAIL.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <WarningLevel>Level3</WarningLevel>
+      <OpenMPSupport>true</OpenMPSupport>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>axdb.lib;accore.lib;acad.lib;acui20.lib;adui20.lib;rxapi.lib;acdb20.lib;acge20.lib;ac1st20.lib;acISMobj20.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ModuleDefinitionFile>.\ROADANDRAIL.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug/ROADDesign.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <ImportLibrary>.\Debug/ROADDesign.lib</ImportLibrary>
+      <AdditionalOptions>/MACHINE:X64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalLibraryDirectories>C:\Autodesk_ObjectARX_2016_Win_64_and_32_Bit\lib-x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <OutputFile>D:\大临\MRoad2016 - 铁一\ROADDesign.arx</OutputFile>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TypeLibraryName>.\Debug/ROADANDRAIL.tlb</TypeLibraryName>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_AFXDLL;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='CAD2010_WXS|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(ProjectDir);</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_AFXEXT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Debug/ROADANDRAIL.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>axdb.lib;acad.lib;acui18.lib;adui18.lib;rxapi.lib;acdb18.lib;acge18.lib;acismobj18.lib;acedapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ModuleDefinitionFile>.\ROADANDRAIL.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug/ROADDesign.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <ImportLibrary>.\Debug/ROADDesign.lib</ImportLibrary>
+      <AdditionalOptions>/MACHINE:X64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalLibraryDirectories>C:\ObjectARX 2010\lib-x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <OutputFile>F:\软件\MRoad\ROADDesign.arx</OutputFile>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TypeLibraryName>.\Debug/ROADANDRAIL.tlb</TypeLibraryName>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_AFXDLL;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='CAD2010_PP|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(ProjectDir);</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_AFXEXT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Debug/ROADANDRAIL.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>axdb.lib;acad.lib;acui18.lib;adui18.lib;rxapi.lib;acdb18.lib;acge18.lib;acismobj18.lib;acedapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ModuleDefinitionFile>.\ROADANDRAIL.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug/ROADDesign.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <ImportLibrary>.\Debug/ROADDesign.lib</ImportLibrary>
+      <AdditionalOptions>/MACHINE:X64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalLibraryDirectories>C:\ObjectARX 2010\lib-x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <OutputFile>E:\项目资料\改移道路\MRoad\ROADDesign.arx</OutputFile>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TypeLibraryName>.\Debug/ROADANDRAIL.tlb</TypeLibraryName>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_AFXDLL;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='CAD2010_zzy|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(ProjectDir);</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_AFXEXT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Debug/ROADANDRAIL.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>axdb.lib;acad.lib;acui18.lib;adui18.lib;rxapi.lib;acdb18.lib;acge18.lib;acismobj18.lib;acedapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ModuleDefinitionFile>.\ROADANDRAIL.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug/ROADDesign.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <ImportLibrary>.\Debug/ROADDesign.lib</ImportLibrary>
+      <AdditionalOptions>/MACHINE:X64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalLibraryDirectories>C:\ObjectARX 2010\lib-x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <OutputFile>E:\改移道路\MRoad\ROADDesign.arx</OutputFile>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TypeLibraryName>.\Debug/ROADANDRAIL.tlb</TypeLibraryName>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_AFXDLL;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>$(ProjectDir)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_AFXEXT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Release/ROADANDRAIL.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OpenMPSupport>true</OpenMPSupport>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>axdb.lib;acad.lib;acui18.lib;adui18.lib;rxapi.lib;acdb18.lib;acge18.lib;acismobj18.lib;acedapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ModuleDefinitionFile>.\ROADANDRAIL.def</ModuleDefinitionFile>
+      <ProgramDatabaseFile>.\Release/ROADDesign.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <ImportLibrary>.\Release/ROADDesign.lib</ImportLibrary>
+      <AdditionalLibraryDirectories>C:\ObjectARX 2010\lib-win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Release/ROADANDRAIL.tlb</TypeLibraryName>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_AFXDLL;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>$(ProjectDir)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_AFXEXT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Release/ROADANDRAIL.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalUsingDirectories>
+      </AdditionalUsingDirectories>
+      <Optimization>MaxSpeed</Optimization>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>axdb.lib;accore.lib;acad.lib;acui20.lib;adui20.lib;rxapi.lib;acdb20.lib;acge20.lib;ac1st20.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>C:\Users\Administrator\Desktop\ARX输出目录\新线16\ROADDesign.arx</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ModuleDefinitionFile>.\ROADANDRAIL.def</ModuleDefinitionFile>
+      <ProgramDatabaseFile>.\Release/ROADDesign.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <ImportLibrary>.\Release/ROADDesign.lib</ImportLibrary>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TypeLibraryName>.\Release/ROADANDRAIL.tlb</TypeLibraryName>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_AFXDLL;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ARXBaseDraw.cpp" />
+    <ClCompile Include="BAS_DRAW_FUN_JYX.cpp" />
+    <ClCompile Include="BAS_DRAW_FUN_RAIL.cpp" />
+    <ClCompile Include="BDCALDlg.cpp" />
+    <ClCompile Include="BXLMK.cpp" />
+    <ClCompile Include="CAutoDrawGutterDlg.cpp" />
+    <ClCompile Include="CCrossDrawParaDlg.cpp" />
+    <ClCompile Include="CCrossEarthInputDlg.cpp" />
+    <ClCompile Include="CGutInteractDlg.cpp" />
+    <ClCompile Include="CHDrawParaDlg.cpp" />
+    <ClCompile Include="CheckToolBar.cpp" />
+    <ClCompile Include="CJPInfor.cpp" />
+    <ClCompile Include="Ckzddlg.cpp" />
+    <ClCompile Include="comToolBarCommand.cpp" />
+    <ClCompile Include="COpDrawingSheet.cpp" />
+    <ClCompile Include="COutpRoadCollTabDlg.cpp" />
+    <ClCompile Include="COverallDrawParaDlg.cpp" />
+    <ClCompile Include="CProfileOpt.cpp" />
+    <ClCompile Include="CSetLevelCtrlDlg.cpp" />
+    <ClCompile Include="CSetOutPileAttri.cpp" />
+    <ClCompile Include="CVDrawParaDlg.cpp" />
+    <ClCompile Include="CWorkDir.cpp" />
+    <ClCompile Include="CXLMBG.cpp" />
+    <ClCompile Include="CalYDArea.cpp" />
+    <ClCompile Include="DataTrans.cpp" />
+    <ClCompile Include="DELDBBZ.cpp" />
+    <ClCompile Include="DLInintLwDlg.cpp" />
+    <ClCompile Include="DMXDataTrans.cpp" />
+    <ClCompile Include="DrawBDCIR.cpp" />
+    <ClCompile Include="DrawBianXianDlg.cpp" />
+    <ClCompile Include="DrawDYTdlg.cpp" />
+    <ClCompile Include="DrawGCSLBandDYT.cpp" />
+    <ClCompile Include="DrawRoadsDlg.cpp" />
+    <ClCompile Include="EDITLMK.cpp" />
+    <ClCompile Include="excel9.cpp" />
+    <ClCompile Include="EXMANAGER.cpp" />
+    <ClCompile Include="EditAllRoads.cpp" />
+    <ClCompile Include="EditJDdlg.cpp" />
+    <ClCompile Include="EditZDKDlg.cpp" />
+    <ClCompile Include="FLOATMENU.cpp" />
+    <ClCompile Include="GTZX2_JYX.cpp" />
+    <ClCompile Include="GTZX_JYX.cpp" />
+    <ClCompile Include="JSGouReactor.cpp" />
+    <ClCompile Include="LCZZBDlg.cpp" />
+    <ClCompile Include="MROADExcel.cpp" />
+    <ClCompile Include="MyBar.cpp" />
+    <ClCompile Include="MyLayout.cpp" />
+    <ClCompile Include="NoseDlg.cpp" />
+    <ClCompile Include="PMGUIDE.cpp" />
+    <ClCompile Include="PmPointer.cpp" />
+    <ClCompile Include="ResizableDialog.cpp" />
+    <ClCompile Include="RoadAutoDesign.cpp" />
+    <ClCompile Include="RoadAutoDesignDlg.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='CAD2010Debug|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="RoadDesignWorkingDatabase.cpp" />
+    <ClCompile Include="SELBXKD.cpp" />
+    <ClCompile Include="SelTINDlg.cpp" />
+    <ClCompile Include="triDTM_road.cpp" />
+    <ClCompile Include="TRIMPMT.cpp" />
+    <ClCompile Include="UltraCArray.cpp" />
+    <ClCompile Include="Vect3d.cpp" />
+    <ClCompile Include="XLDataBase_JYX.cpp" />
+    <ClCompile Include="ZBTOLC.cpp" />
+    <ClCompile Include="ZDMTBX.cpp" />
+    <ClCompile Include="BTGridCtrl.cpp" />
+    <ClCompile Include="NewGridCtrl\CheckComboBox.cpp" />
+    <ClCompile Include="NewGridCtrl\GridCell.cpp" />
+    <ClCompile Include="NewGridCtrl\GridCellBase.cpp" />
+    <ClCompile Include="NewGridCtrl\GridCellCheckCombo.cpp" />
+    <ClCompile Include="NewGridCtrl\GridCellCombo.cpp" />
+    <ClCompile Include="NewGridCtrl\GridCellDateTime.cpp" />
+    <ClCompile Include="NewGridCtrl\GridCellNumeric.cpp" />
+    <ClCompile Include="NewGridCtrl\GridCtrl.cpp" />
+    <ClCompile Include="NewGridCtrl\GridDropTarget.cpp" />
+    <ClCompile Include="NewGridCtrl\InPlaceEdit.cpp" />
+    <ClCompile Include="LMKGridCtrl.cpp" />
+    <ClCompile Include="NewGridCtrl\TitleTip.cpp" />
+    <ClCompile Include="AcDialogBar.cpp" />
+    <ClCompile Include="AcToolBar.cpp" />
+    <ClCompile Include="menubar\BCMenu.cpp" />
+    <ClCompile Include="DockLocationTool.cpp" />
+    <ClCompile Include="menubar\KeyHelper.cpp" />
+    <ClCompile Include="menubar\MenuBar.cpp" />
+    <ClCompile Include="menubar\MenuBarXP.cpp" />
+    <ClCompile Include="menubar\MenuXP.cpp" />
+    <ClCompile Include="menubar\Subclass.cpp" />
+    <ClCompile Include="menubar\ToolBarXP.cpp" />
+    <ClCompile Include="cdxCDynamicControlsManager.cpp" />
+    <ClCompile Include="cdxCSizeIconCtrl.cpp" />
+    <ClCompile Include="cdxCSizingDialog.cpp" />
+    <ClCompile Include="BAS_DRAW_FUN.cpp" />
+    <ClCompile Include="ArcGQ.cpp" />
+    <ClCompile Include="DocData.cpp" />
+    <ClCompile Include="StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='CAD2010Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='CAD2010_32|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='CAD2016|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='CAD2010_WXS|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='CAD2010_PP|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='CAD2010_zzy|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='CAD2010Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='CAD2010_32|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='CAD2016|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='CAD2010_WXS|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='CAD2010_PP|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='CAD2010_zzy|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="rxdebug.cpp" />
+    <ClCompile Include="BaseSettting.cpp" />
+    <ClCompile Include="ROADANDRAIL.cpp" />
+    <ClCompile Include="ROADANDRAILCommands.cpp" />
+    <ClCompile Include="FourJDLocationC_S.cpp" />
+    <ClCompile Include="JDLuanLink.cpp" />
+    <ClCompile Include="LLTuLink.cpp" />
+    <ClCompile Include="Norm3JD.cpp" />
+    <ClCompile Include="PolyLineCal.cpp" />
+    <ClCompile Include="SPIRAL.cpp" />
+    <ClCompile Include="SpiralX.cpp" />
+    <ClCompile Include="SpiralY.cpp" />
+    <ClCompile Include="ThreeJDCalA1A2FromT1T2R.cpp" />
+    <ClCompile Include="ThreeJDCalThisAFromThatA_PreT_R.cpp" />
+    <ClCompile Include="YYCLink.cpp" />
+    <ClCompile Include="YYLuanLink.cpp" />
+    <ClCompile Include="YYSLink.cpp" />
+    <ClCompile Include="ZYLink.cpp" />
+    <ClCompile Include="BCARC.cpp" />
+    <ClCompile Include="BCCreateXLEntity.cpp" />
+    <ClCompile Include="BCPPP.cpp" />
+    <ClCompile Include="BCTPP.cpp" />
+    <ClCompile Include="BCTPR.cpp" />
+    <ClCompile Include="BCTTP.cpp" />
+    <ClCompile Include="LocationDlg.cpp" />
+    <ClCompile Include="XLSJ.cpp" />
+    <ClCompile Include="YYQXLink.cpp" />
+    <ClCompile Include="DirdlgDlg.cpp" />
+    <ClCompile Include="SHELLTREE.CPP" />
+    <ClCompile Include="FastTin.cpp" />
+    <ClCompile Include="global.cpp" />
+    <ClCompile Include="DLBdlg.cpp" />
+    <ClCompile Include="DTMODEDLG.cpp" />
+    <ClCompile Include="DialogSetDirectRamp.cpp" />
+    <ClCompile Include="InRoadNameDlg.cpp" />
+    <ClCompile Include="JDTDSETTINGDLG.cpp" />
+    <ClCompile Include="JD_CENTER.cpp" />
+    <ClCompile Include="JdCenGridCtrl.cpp" />
+    <ClCompile Include="JdCenterInputDlg.cpp" />
+    <ClCompile Include="PMDIALOG.cpp" />
+    <ClCompile Include="PmDrawDialog.cpp" />
+    <ClCompile Include="XLLinkDlg.cpp" />
+    <ClCompile Include="hooseLMX.cpp" />
+    <ClCompile Include="Bri.cpp" />
+    <ClCompile Include="BriDlg.cpp" />
+    <ClCompile Include="DMDHQFS.cpp" />
+    <ClCompile Include="DMX.cpp" />
+    <ClCompile Include="DMXReactor.cpp" />
+    <ClCompile Include="DeshBz.cpp" />
+    <ClCompile Include="Dmx_lcb.cpp" />
+    <ClCompile Include="Dmx_pqx.cpp" />
+    <ClCompile Include="EarhBz.cpp" />
+    <ClCompile Include="EditDMXDlg.cpp" />
+    <ClCompile Include="GTZDM.cpp" />
+    <ClCompile Include="GTZDMReactor.cpp" />
+    <ClCompile Include="GlobalZDMData.cpp" />
+    <ClCompile Include="InputZDM.cpp" />
+    <ClCompile Include="MODIFY_GTZDM.cpp" />
+    <ClCompile Include="NCDMXCS.cpp" />
+    <ClCompile Include="ORI_SCALE.cpp" />
+    <ClCompile Include="PickDmxDockBar.cpp" />
+    <ClCompile Include="PickXdmDmx.cpp" />
+    <ClCompile Include="ReWriteFILE.cpp" />
+    <ClCompile Include="SAVEZDMDLG.cpp" />
+    <ClCompile Include="SetRoadName.cpp" />
+    <ClCompile Include="TunDlg1.cpp" />
+    <ClCompile Include="ZDMKZBG.cpp" />
+    <ClCompile Include="ZDMSJ.cpp" />
+    <ClCompile Include="ZDMStandardDlg.cpp" />
+    <ClCompile Include="ZMZDPMFA.cpp" />
+    <ClCompile Include="ZdmOriDataDlg.cpp" />
+    <ClCompile Include="tun.cpp" />
+    <ClCompile Include="SetCGBZDlg.cpp" />
+    <ClCompile Include="SetCGJSCS.cpp" />
+    <ClCompile Include="SetJKNorm.cpp" />
+    <ClCompile Include="SuphFDDataDlg.cpp" />
+    <ClCompile Include="SuphFDSheet.cpp" />
+    <ClCompile Include="calcg.cpp" />
+    <ClCompile Include="DBBZ.cpp" />
+    <ClCompile Include="DRAWXYTZD.cpp" />
+    <ClCompile Include="DUANBUHX.cpp" />
+    <ClCompile Include="DrawJWGRID.cpp" />
+    <ClCompile Include="DrawPM.cpp" />
+    <ClCompile Include="DrawPmDlg.cpp" />
+    <ClCompile Include="DrawZDMDlg.cpp" />
+    <ClCompile Include="PmCutDlg.cpp" />
+    <ClCompile Include="SetDrawQXYS.cpp" />
+    <ClCompile Include="TrimTuSettingDialog.cpp" />
+    <ClCompile Include="WxpLmDlg.cpp" />
+    <ClCompile Include="ZDMHT.cpp" />
+    <ClCompile Include="ZDMHT1.cpp" />
+    <ClCompile Include="BtnST.cpp" />
+    <ClCompile Include="CalSta.cpp" />
+    <ClCompile Include="Cross.cpp" />
+    <ClCompile Include="DesLineReact.cpp" />
+    <ClCompile Include="DesignLine.cpp" />
+    <ClCompile Include="EarthLine.cpp" />
+    <ClCompile Include="EditBP.cpp" />
+    <ClCompile Include="FLATCOMBOBOX.CPP" />
+    <ClCompile Include="GetHdmDmx.cpp" />
+    <ClCompile Include="GouPDPage.cpp" />
+    <ClCompile Include="GouPDSheet.cpp" />
+    <ClCompile Include="HDMTdlg.cpp" />
+    <ClCompile Include="HdmDaoHang.cpp" />
+    <ClCompile Include="HdmDataBase.cpp" />
+    <ClCompile Include="HdmDes.cpp" />
+    <ClCompile Include="HdmDmx.cpp" />
+    <ClCompile Include="HdmText.cpp" />
+    <ClCompile Include="JSGOU.cpp" />
+    <ClCompile Include="LMSheetDlg.cpp" />
+    <ClCompile Include="LTGOU.cpp" />
+    <ClCompile Include="LTGouReactor.cpp" />
+    <ClCompile Include="PPCDSheet.cpp" />
+    <ClCompile Include="PPCDsj.cpp" />
+    <ClCompile Include="StaDataSheet.cpp" />
+    <ClCompile Include="lmsj.cpp" />
+    <ClCompile Include="GTZDK.cpp" />
+    <ClCompile Include="ZDKINPUT.cpp" />
+    <ClCompile Include="ZDKSHEET.cpp" />
+    <ClCompile Include="OutTAB.cpp" />
+    <ClCompile Include="QBTMLDlg.cpp" />
+    <ClCompile Include="TABDlg.cpp" />
+    <ClCompile Include="Ado.cpp" />
+    <ClCompile Include="XLDataBase.cpp" />
+    <ClCompile Include="BlockComputerFun.cpp" />
+    <ClCompile Include="JMBXDlg.cpp" />
+    <ClCompile Include="JMXYDLG.cpp" />
+    <ClCompile Include="SetArcOrCircle.cpp" />
+    <ClCompile Include="SetLineDlg1.cpp" />
+    <ClCompile Include="SetSprialdlg.cpp" />
+    <ClCompile Include="Draw3D.cpp" />
+    <ClCompile Include="TRIM.cpp" />
+    <ClCompile Include="TRIMDIAG.cpp" />
+    <ClCompile Include="TRIMDIALOG.cpp" />
+    <ClCompile Include="BasicFun.cpp" />
+    <ClCompile Include="GTZX.cpp" />
+    <ClCompile Include="GTZX2.cpp" />
+    <ClCompile Include="Hhqx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CAutoDrawGutterDlg.h" />
+    <ClInclude Include="CCrossDrawParaDlg.h" />
+    <ClInclude Include="CCrossEarthInputDlg.h" />
+    <ClInclude Include="CGutInteractDlg.h" />
+    <ClInclude Include="CHDrawParaDlg.h" />
+    <ClInclude Include="CheckToolBar.h" />
+    <ClInclude Include="CJPInfor.h" />
+    <ClInclude Include="Ckzddlg.h" />
+    <ClInclude Include="COpDrawingSheet.h" />
+    <ClInclude Include="COutpRoadCollTabDlg.h" />
+    <ClInclude Include="COverallDrawParaDlg.h" />
+    <ClInclude Include="CProfileOpt.h" />
+    <ClInclude Include="CSetLevelCtrlDlg.h" />
+    <ClInclude Include="CSetOutPileAttri.h" />
+    <ClInclude Include="CVDrawParaDlg.h" />
+    <ClInclude Include="DataTrans.h" />
+    <ClInclude Include="DLInintLwDlg.h" />
+    <ClInclude Include="DMXDataTrans.h" />
+    <ClInclude Include="DrawDYTdlg.h" />
+    <ClInclude Include="DrawGCSLBandDYT.h" />
+    <ClInclude Include="EditJDdlg.h" />
+    <ClInclude Include="excel9.h" />
+    <ClInclude Include="JSGouReactor.h" />
+    <ClInclude Include="MROADExcel.h" />
+    <ClInclude Include="MyBar.h" />
+    <ClInclude Include="oldnetdog\Netdog.h" />
+    <ClInclude Include="ARXBaseDraw.h" />
+    <ClInclude Include="AcDialogBar.h" />
+    <ClInclude Include="AcToolBar.h" />
+    <ClInclude Include="Ado.h" />
+    <ClInclude Include="AdskDMgr.h" />
+    <ClInclude Include="ArcGQ.h" />
+    <ClInclude Include="BAS_DRAW_FUN.h" />
+    <ClInclude Include="BAS_DRAW_FUN_JYX.h" />
+    <ClInclude Include="BAS_DRAW_FUN_RAIL.h" />
+    <ClInclude Include="BCARC.h" />
+    <ClInclude Include="BCCreateXLEntity.h" />
+    <ClInclude Include="menubar\BCMenu.h" />
+    <ClInclude Include="BCPPP.h" />
+    <ClInclude Include="BCTPP.h" />
+    <ClInclude Include="BCTPR.h" />
+    <ClInclude Include="BCTTP.h" />
+    <ClInclude Include="BDCALDlg.h" />
+    <ClInclude Include="BTGridCtrl.h" />
+    <ClInclude Include="BXLMK.h" />
+    <ClInclude Include="BaseSettting.h" />
+    <ClInclude Include="BasicFun.h" />
+    <ClInclude Include="BlockComputerFun.h" />
+    <ClInclude Include="Bri.h" />
+    <ClInclude Include="BriDlg.h" />
+    <ClInclude Include="BtnST.h" />
+    <ClInclude Include="CWorkDir.h" />
+    <ClInclude Include="CXLMBG.h" />
+    <ClInclude Include="CalSta.h" />
+    <ClInclude Include="CalYDArea.h" />
+    <ClInclude Include="NewGridCtrl\CellRange.h" />
+    <ClInclude Include="NewGridCtrl\CheckComboBox.h" />
+    <ClInclude Include="Cross.h" />
+    <ClInclude Include="DBBZ.h" />
+    <ClInclude Include="DELDBBZ.h" />
+    <ClInclude Include="DLBdlg.h" />
+    <ClInclude Include="DMDHQFS.h" />
+    <ClInclude Include="DMX.h" />
+    <ClInclude Include="DMXReactor.h" />
+    <ClInclude Include="DMX_LCB.H" />
+    <ClInclude Include="DRAWXYTZD.h" />
+    <ClInclude Include="DTMODEDLG.h" />
+    <ClInclude Include="DUANBUHX.h" />
+    <ClInclude Include="DesLineReact.h" />
+    <ClInclude Include="DeshBz.h" />
+    <ClInclude Include="DesignLine.h" />
+    <ClInclude Include="DialogSetDirectRamp.h" />
+    <ClInclude Include="DirdlgDlg.h" />
+    <ClInclude Include="Dmx_pqx.h" />
+    <ClInclude Include="DocData.h" />
+    <ClInclude Include="DockLocationTool.h" />
+    <ClInclude Include="DockTypeHdmBar.h" />
+    <ClInclude Include="Draw3D.h" />
+    <ClInclude Include="DrawBDCIR.h" />
+    <ClInclude Include="DrawBianXianDlg.h" />
+    <ClInclude Include="DrawJWGRID.h" />
+    <ClInclude Include="DrawPM.h" />
+    <ClInclude Include="DrawPmDlg.h" />
+    <ClInclude Include="DrawQXYS.h" />
+    <ClInclude Include="DrawRoadsDlg.h" />
+    <ClInclude Include="DrawZDMDlg.h" />
+    <ClInclude Include="EDITLMK.h" />
+    <ClInclude Include="EXMANAGER.h" />
+    <ClInclude Include="EarhBz.h" />
+    <ClInclude Include="EarthLine.h" />
+    <ClInclude Include="EditAllRoads.h" />
+    <ClInclude Include="EditBP.h" />
+    <ClInclude Include="EditDMXDlg.h" />
+    <ClInclude Include="EditZDKDlg.h" />
+    <ClInclude Include="FLATCOMBOBOX.H" />
+    <ClInclude Include="FLOATMENU.h" />
+    <ClInclude Include="FastTin.h" />
+    <ClInclude Include="FourJDLocationC_S.h" />
+    <ClInclude Include="GTZDK.h" />
+    <ClInclude Include="GTZDM.h" />
+    <ClInclude Include="GTZDMReactor.h" />
+    <ClInclude Include="GTZX.h" />
+    <ClInclude Include="GTZX2.h" />
+    <ClInclude Include="GTZX2_JYX.h" />
+    <ClInclude Include="GTZX_JYX.h" />
+    <ClInclude Include="GetHdmDmx.h" />
+    <ClInclude Include="GlobalZDMData.h" />
+    <ClInclude Include="GouPDPage.h" />
+    <ClInclude Include="GouPDSheet.h" />
+    <ClInclude Include="NewGridCtrl\GridCell.h" />
+    <ClInclude Include="NewGridCtrl\GridCellBase.h" />
+    <ClInclude Include="NewGridCtrl\GridCellCheckCombo.h" />
+    <ClInclude Include="NewGridCtrl\GridCellCombo.h" />
+    <ClInclude Include="NewGridCtrl\GridCellDateTime.h" />
+    <ClInclude Include="NewGridCtrl\GridCellNumeric.h" />
+    <ClInclude Include="NewGridCtrl\GridCtrl.h" />
+    <ClInclude Include="NewGridCtrl\GridDropTarget.h" />
+    <ClInclude Include="Gsmh.h" />
+    <ClInclude Include="HDMTdlg.h" />
+    <ClInclude Include="HdmDaoHang.h" />
+    <ClInclude Include="HdmDataBase.h" />
+    <ClInclude Include="HdmDes.h" />
+    <ClInclude Include="HdmDmx.h" />
+    <ClInclude Include="HdmText.h" />
+    <ClInclude Include="Hhqx.h" />
+    <ClInclude Include="NewGridCtrl\InPlaceEdit.h" />
+    <ClInclude Include="InRoadNameDlg.h" />
+    <ClInclude Include="InputZDM.h" />
+    <ClInclude Include="JDLuanLink.h" />
+    <ClInclude Include="JDTDSETTINGDLG.h" />
+    <ClInclude Include="JD_CENTER.h" />
+    <ClInclude Include="JMBXDlg.h" />
+    <ClInclude Include="JMXYDLG.h" />
+    <ClInclude Include="JSGOU.h" />
+    <ClInclude Include="JdCenGridCtrl.h" />
+    <ClInclude Include="JdCenterInputDlg.h" />
+    <ClInclude Include="KZBGFRAME.h" />
+    <ClInclude Include="menubar\KeyHelper.h" />
+    <ClInclude Include="LCZZBDlg.h" />
+    <ClInclude Include="LLTuLink.h" />
+    <ClInclude Include="LMKGridCtrl.h" />
+    <ClInclude Include="LMSheetDlg.h" />
+    <ClInclude Include="LTGOU.h" />
+    <ClInclude Include="LTGouReactor.h" />
+    <ClInclude Include="LocationDialog.h" />
+    <ClInclude Include="LocationDlg.h" />
+    <ClInclude Include="MODIFY_GTZDM.h" />
+    <ClInclude Include="NewGridCtrl\MemDC.h" />
+    <ClInclude Include="menubar\MenuBar.h" />
+    <ClInclude Include="menubar\MenuBarXP.h" />
+    <ClInclude Include="menubar\MenuXP.h" />
+    <ClInclude Include="MyLayout.h" />
+    <ClInclude Include="NCDMXCS.h" />
+    <ClInclude Include="NetDogAPI.h" />
+    <ClInclude Include="Norm3JD.h" />
+    <ClInclude Include="NoseDlg.h" />
+    <ClInclude Include="ORI_SCALE.h" />
+    <ClInclude Include="OutTAB.h" />
+    <ClInclude Include="PMDIALOG.h" />
+    <ClInclude Include="PMGUIDE.h" />
+    <ClInclude Include="PPCDSheet.h" />
+    <ClInclude Include="PPCDsj.h" />
+    <ClInclude Include="PickDmxDockBar.h" />
+    <ClInclude Include="PickXdmDmx.h" />
+    <ClInclude Include="PmCutDlg.h" />
+    <ClInclude Include="PmDrawDialog.h" />
+    <ClInclude Include="PmPointer.h" />
+    <ClInclude Include="PolyLineCal.h" />
+    <ClInclude Include="QBTMLDlg.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="ReWriteFILE.h" />
+    <ClInclude Include="ResizableDialog.h" />
+    <ClInclude Include="RoadAutoDesign.h" />
+    <ClInclude Include="RoadAutoDesignDlg.h" />
+    <ClInclude Include="RoadDesignWorkingDatabase.h" />
+    <ClInclude Include="SAVEZDMDLG.h" />
+    <ClInclude Include="SELBXKD.h" />
+    <ClInclude Include="SelectFolderDlg.h" />
+    <ClInclude Include="SelTINDlg.h" />
+    <ClInclude Include="SHELLTREE.H" />
+    <ClInclude Include="SPIRAL.h" />
+    <ClInclude Include="SetArcOrCircle.h" />
+    <ClInclude Include="SetCGBZDlg.h" />
+    <ClInclude Include="SetCGJSCS.h" />
+    <ClInclude Include="SetDrawQXYS.h" />
+    <ClInclude Include="SetJKNorm.h" />
+    <ClInclude Include="SetLineDlg1.h" />
+    <ClInclude Include="SetRoadName.h" />
+    <ClInclude Include="SetSprialdlg.h" />
+    <ClInclude Include="SpiralX.h" />
+    <ClInclude Include="SpiralY.h" />
+    <ClInclude Include="StaDataSheet.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="StdArx.h" />
+    <ClInclude Include="menubar\Subclass.h" />
+    <ClInclude Include="Struct.h" />
+    <ClInclude Include="SuphFDDataDlg.h" />
+    <ClInclude Include="SuphFDSheet.h" />
+    <ClInclude Include="TABDlg.h" />
+    <ClInclude Include="triDTM_road.h" />
+    <ClInclude Include="TRIMDIAG.h" />
+    <ClInclude Include="TRIMDIALOG.h" />
+    <ClInclude Include="TRIMPMT.h" />
+    <ClInclude Include="ThreeJDCalA1A2FromT1T2R.h" />
+    <ClInclude Include="ThreeJDCalThisAFromThatA_PreT_R.h" />
+    <ClInclude Include="NewGridCtrl\TitleTip.h" />
+    <ClInclude Include="menubar\ToolBarXP.h" />
+    <ClInclude Include="TrimTuSettingDialog.h" />
+    <ClInclude Include="TunDlg1.h" />
+    <ClInclude Include="UltraCArray.h" />
+    <ClInclude Include="Vect3d.h" />
+    <ClInclude Include="WxpLmDlg.h" />
+    <ClInclude Include="XLDataBase.h" />
+    <ClInclude Include="XLDataBase_JYX.h" />
+    <ClInclude Include="XLLinkDlg.h" />
+    <ClInclude Include="XLSJ.h" />
+    <ClInclude Include="YYCLink.h" />
+    <ClInclude Include="YYLuanLink.h" />
+    <ClInclude Include="YYQXLink.h" />
+    <ClInclude Include="YYSLink.h" />
+    <ClInclude Include="ZBTOLC.h" />
+    <ClInclude Include="ZDKINPUT.h" />
+    <ClInclude Include="ZDKSHEET.h" />
+    <ClInclude Include="ZDMHT.h" />
+    <ClInclude Include="ZDMHT1.h" />
+    <ClInclude Include="ZDMKZBG.h" />
+    <ClInclude Include="ZDMSJ.h" />
+    <ClInclude Include="ZDMStandardDlg.h" />
+    <ClInclude Include="ZDMTBX.h" />
+    <ClInclude Include="ZMZDPMFA.h" />
+    <ClInclude Include="ZYLink.h" />
+    <ClInclude Include="ZdmOriDataDlg.h" />
+    <ClInclude Include="calcg.h" />
+    <ClInclude Include="cdxCDynamicControlsManager.h" />
+    <ClInclude Include="cdxCSizeIconCtrl.h" />
+    <ClInclude Include="cdxCSizingDialog.h" />
+    <ClInclude Include="hooseLMX.h" />
+    <ClInclude Include="lmsj.h" />
+    <ClInclude Include="rxdebug.h" />
+    <ClInclude Include="tun.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ROADANDRAIL.def" />
+    <None Include="res\ROADANDRAIL.rc2" />
+    <None Include="ico00001.ico" />
+    <None Include="icon1.ico" />
+    <None Include="icon2.ico" />
+    <None Include="icon3.ico" />
+    <None Include="res\示意图.bmp" />
+    <None Include="res\纵断面图.bmp" />
+    <None Include="ObjectARX.prj" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ROADANDRAIL.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="ROADANDRAIL.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
